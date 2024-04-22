@@ -53,7 +53,14 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Activate SimpleLightbox plugin for portfolio items
     new SimpleLightbox({
-        elements: '#portfolio a.portfolio-box'
+        elements: ".find_the_word .portfolio-box"
     });
+    new SimpleLightbox({
+        elements: ".weatherly .portfolio-box"
+    });
+    // SimpleLightbox.open({
+    //     content: "<h3>Backend application that provides 4 word oriented games</h3>",
+    //     elementClass: "slb"
+    // });
 
 });

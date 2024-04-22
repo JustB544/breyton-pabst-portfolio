@@ -4834,11 +4834,14 @@ textarea.form-control-lg {
 .list-group-item {
   position: relative;
   display: block;
-  padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
-  color: var(--bs-list-group-color);
+  padding: 0.5rem 1rem;
+  font-weight: 700;
   text-decoration: none;
-  background-color: var(--bs-list-group-bg);
-  border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+  color: rgba(255, 255, 255, 0.75);
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: transparent;
+  border: none;
 }
 .list-group-item:first-child {
   border-top-left-radius: inherit;
@@ -8127,7 +8130,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(11, 74, 120) !important;
+  background-color: rgb(7, 37, 89) !important;
 }
 
 .bg-secondary {
@@ -8162,7 +8165,7 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(33, 37, 41, .8) !important;
 }
 
 .bg-black {
@@ -10977,7 +10980,7 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgb(9, 50, 122) !important;
   transition: opacity 0.25s ease;
   text-align: center;
 }
@@ -11000,4 +11003,26 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
   margin-bottom: 1.5rem;
   border-radius: 250px;
+}
+
+#projects {
+  justify-content: space-evenly;
+}
+
+.project-header {
+  padding: 3rem 0 1rem 0;
+}
+
+.technologies {
+  color: white;
+}
+
+.skill-header {
+  font-weight: 700;
+  padding-top: 2rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#page-top {
+  background-color: #f0f0f0;
 }
