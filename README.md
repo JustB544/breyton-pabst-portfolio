@@ -1,5 +1,11 @@
 # Breyton Pabst's Portfolio
-### Created by Breyton Pabst
+=== Author ===
+
+Breyton Pabst | [Linkedin](https://www.linkedin.com/in/breytonpabst/) | [Github](https://github.com/JustB544)
+
+=== Portfolio Website ===
+
+[breytonpabst.com](breytonpabst.com)
 
 # Copyright and License 
 (Uses Start Bootstrap templates Creative and Grayscale)
